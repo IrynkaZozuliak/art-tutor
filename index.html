@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Art Tutor</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header class="header">
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+    </header>
+    <main>
+        
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-personal-tutor.partial.html"></section>
+        
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-carusel-personal-tutor.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-about-me.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-my-services.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-latest-workshops.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-how-to-start.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-pricing-plans.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-gallery.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-contact-me.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-workshops.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-testimonials.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-contacts.partial.html"></section>
+
+    </main>
+    <footer>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></nav>
+    </footer>
 
 </body>
 </html>

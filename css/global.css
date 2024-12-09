@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    --white: #ffffff;
+    --text-color: #1D2626;
+    --brand-color: #436A58;
+    --accent-color: #D74944;
+    --heading-color: #736D61;
+    --paragraph-color: #736D61;
+
+    --base-text-color: #436A58;
+
+
+    
+   
+    --accent-color: #00c5b5;
+    
+    --dark-shade-color: #81838b;
+    --primary-dark-color: #393b42;
+    --light-border-color: #e6e6e7;
+    --light-accent-color: #f8f8f8;
+    --small-dot-color: #24c3b5;
+      
+    
+    --btn-bg-gradient: #8b9dc3;
+    --btn-hover-color: #2d4373;
+    --btn-hover-gradient: #7a89a7;
+    --fixed-price-offer-color : #80838B;
+    --price-accent-purple-color: #a5a3ef;
+    --price-accent-orange-color: #ffb83c;
+    --price-accent-turquoise-color: #00c5b5;
+}
+
+h1 {
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+    h1 {
+        font-size: 54px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding: 0 40px;
+    }
+    h1 {
+        font-size: 68px;
+    }   
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+}
