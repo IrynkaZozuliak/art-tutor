@@ -9,8 +9,9 @@
 
 :root {
     scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    background-color: var(--background-color);
     --white: #ffffff;
     --text-color: #1D2626;
     --brand-color: #436A58;
@@ -32,7 +33,7 @@
     --light-border-color: #e6e6e7;
     --light-accent-color: #f8f8f8;
     --small-dot-color: #24c3b5;
-    --btn-bg-gradient: #8b9dc3;
+    
     --btn-hover-color: #2d4373;
     --btn-hover-gradient: #7a89a7;
     --fixed-price-offer-color : #80838B;
