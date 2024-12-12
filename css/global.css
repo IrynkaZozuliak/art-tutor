@@ -45,20 +45,34 @@
 h1 {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--brand-color);
+    line-height: 1.67;
 }
 
 h2 {
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 60px;
     font-family: 'Playfair Display', serif;
+    color: var(--text-color);
+    line-height: 1.1;
+    font-weight: 700;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
 }
 
 img {
@@ -72,45 +86,5 @@ img {
     padding: 0 24px;
 }
 
-@media (min-width: 768px) {
-    .container {
-        padding: 0 32px;
-    }
-    h1 {
-        font-size: 54px;
-    }
-    h2 {
-        font-size: 44px;
-    }
-    h3 {
-        font-size: 24px;
-    }
-    h4 {
-        font-size: 19px;
-    }
-}
 
-@media (min-width: 992px) {
-    .container {
-        padding: 0 40px;
-    }
-    h1 {
-        font-size: 68px;
-    }   
-    h2 {
-        font-size: 50px;
-    }
-    h3 {
-        font-size: 26px;
-    }
-    h4 {
-        font-size: 21px;
-    }
-}
 
-@media (min-width: 1200px) {
-    .container {
-        padding: 0 15px;
-    }
-    
-}

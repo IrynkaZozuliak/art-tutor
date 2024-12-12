@@ -1,0 +1,35 @@
+.personal-tutor {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+    border: solid;
+
+}
+
+.personal-tutor__text {
+    width: 670px;
+    padding: 25px 47px 0 3px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stars__image-container {
+    width: 470px;
+}
+
+
+
+.personal-tutor__text-paragraf {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--text-color);
+    line-height: 1.67;
+}
