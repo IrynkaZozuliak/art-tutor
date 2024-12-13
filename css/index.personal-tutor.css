@@ -8,7 +8,7 @@
 
 .personal-tutor__text {
     width: 670px;
-    padding: 25px 47px 0 3px;
+    padding: 30px 47px 0 3px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -28,4 +28,77 @@
     font-optical-sizing: auto;
     color: var(--text-color);
     line-height: 1.67;
+    padding-top: 15px;
 }
+
+.personal-tutor__text span {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--base-text-color);
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.personal-tutor__links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.personal-tutor__links-book {
+    width: 225px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--brand-color);
+     
+  }
+  
+  .personal-tutor__links-book:hover {
+    background: var(--btn-bg-gradient);
+    transition: 0.5s;
+  }
+
+  .personal-tutor__link-book {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 17.5px;
+    letter-spacing: 0.47px;
+    line-height: normal;
+  }
+
+
+
+  
+  .personal-tutor__link-learn {
+    text-decoration: none;
+    font-size: 17.5px;
+    letter-spacing: 0.47px;
+    line-height: normal;
+    border: solid;
+    border-color: var(--btn-bg-gradient);
+    color: var(--btn-bg-gradient);
+
+    width: 160px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .personal-tutor__link-learn:hover {
+    background: var(--btn-bg-gradient);
+    color: var(--white);
+    transition: 0.5s;
+  }
+
+  
+  
