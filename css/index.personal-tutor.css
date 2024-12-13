@@ -4,15 +4,11 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-
-    border: solid;
-
 }
 
 .personal-tutor__text {
     width: 670px;
     padding: 25px 47px 0 3px;
-    border: solid;
     display: flex;
     flex-direction: column;
     gap: 25px;
