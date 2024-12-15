@@ -84,6 +84,7 @@
     line-height: normal;
     border: solid;
     border-color: var(--btn-bg-gradient);
+    border-width: 2px;
     color: var(--btn-bg-gradient);
 
     width: 160px;
