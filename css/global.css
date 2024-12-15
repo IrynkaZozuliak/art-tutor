@@ -22,20 +22,21 @@
 
     --background-color:  rgb(251, 247, 238);
     --btn-bg-gradient: #f2b75e;
+    --btn-slider-color: #736D61;
+    --btn-slider-hover-color: #1D2626;
     --heading-hover-color: #415f51 ;
 
 
     
    
-    --accent-color: #00c5b5;
+    
     --dark-shade-color: #81838b;
     --primary-dark-color: #393b42;
     --light-border-color: #e6e6e7;
     --light-accent-color: #f8f8f8;
     --small-dot-color: #24c3b5;
     
-    --btn-hover-color: #2d4373;
-    --btn-hover-gradient: #7a89a7;
+     
     --fixed-price-offer-color : #80838B;
     --price-accent-purple-color: #a5a3ef;
     --price-accent-orange-color: #ffb83c;
@@ -50,11 +51,18 @@ h1 {
     font-optical-sizing: auto;
     color: var(--brand-color);
     line-height: 1.67;
+    letter-spacing: 0.5px;
 }
 
 h2 {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--accent-color);
+    line-height: 1.67;
+    letter-spacing: 0.5px;
 }
 
 h3 {
@@ -63,6 +71,7 @@ h3 {
     color: var(--text-color);
     line-height: 1.1;
     font-weight: 700;
+    letter-spacing: 0.2px;
 }
 
 h4 {

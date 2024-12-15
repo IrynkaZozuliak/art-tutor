@@ -1,6 +1,6 @@
 .carusel-personal-tutor {
-  margin-top: 95px;
-  margin-bottom: 95px;
+  margin-top: 70px;
+  margin-bottom: 120px;
 }
 
 
@@ -11,8 +11,8 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 39px;
+  padding-right: 10px;
 }
 
 .slider__track-wrapper {
@@ -57,7 +57,12 @@
 
 .arrow-svg_1j4 {
   width: 30px;
-  fill: #c63a97;
+  fill: var(--btn-slider-color);
+}
+
+.arrow-svg_1j4:hover {
+  fill: var(--btn-slider-hover-color);
+  transition: 0.5s;
 }
 
 .arrow-svg-rotate {
