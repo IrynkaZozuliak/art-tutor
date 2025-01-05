@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="59px" viewBox="0 0 60 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon3">
+            <g id="Группа_1_копия" fill-rule="nonzero">
+                <rect id="Прямоугольник_1" fill="#F2B75E" x="0" y="0" width="30" height="28.5563194"></rect>
+                <rect id="Прямоугольник_1_копия_3" fill="#F2B75E" x="30" y="0" width="30" height="28.5563194"></rect>
+                <rect id="Прямоугольник_1_копия_4" fill="#E1D9C8" x="0" y="29" width="60" height="30"></rect>
+            </g>
+            <path d="M0,29.1139555 C0,45.6195621 13.4314575,59 30,59 C46.5685425,59 60,45.6195621 60,29.1139555 C60,28.9655215 0,28.9585481 0,29.1139555 Z" id="Эллипс_1" fill="#436A58"></path>
+            <path d="M60,29.8897414 C60,13.9163742 46.569,0 30,0 C13.431,0 0,13.9163742 0,29.8897414 C0,30.0338373 60,30.0396398 60,29.8897414 Z" id="Эллипс_1_копия" fill="#D74944"></path>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,6 @@
 .about-me {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+    border: solid;
 }
 
 .about-me h3 {
@@ -81,4 +82,16 @@
     color: var(--white);
     background-color: var(--accent-color);
     transition: 0.5s;
+}
+
+
+/*для окремої секції  about me*/
+.about-me__section--white {
+    height: 350px;
+    background-color: var(--white);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 250px;
 }
