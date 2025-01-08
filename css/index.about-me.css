@@ -86,7 +86,7 @@
 
 /*для окремої секції  about me*/
 .about-me__section--white {
-    height: 350px;
+    height: 345px;
     background-color: var(--white);
 
     display: flex;
@@ -95,23 +95,15 @@
     
     align-items: center;
     gap: 30px;
-    margin-bottom: 250px;
-}
-
-.about-me__section--container {
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
-    margin: 45px;
-
+    margin-bottom: 250px;  
 }
 
 .about-me__element {
     border: solid;
-    width: 300px;
+    width: 330px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .about-me__image {
@@ -126,4 +118,16 @@
     font-optical-sizing: auto;
     color: var(--paragraph-color);
     line-height: 1.56;
+}
+
+.about-me-link {
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--heading-hover-color);
+    line-height: 1.67;
+    letter-spacing: 0.5px;
 }
