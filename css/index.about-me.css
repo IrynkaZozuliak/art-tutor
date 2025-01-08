@@ -95,11 +95,11 @@
     
     align-items: center;
     gap: 30px;
-    margin-bottom: 250px;  
+    margin-bottom: 50px;
+    padding-left: 25px;  
 }
 
 .about-me__element {
-    border: solid;
     width: 330px;
     display: flex;
     flex-direction: column;
@@ -130,4 +130,9 @@
     color: var(--heading-hover-color);
     line-height: 1.67;
     letter-spacing: 0.5px;
+}
+
+.about-me-link:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
 }

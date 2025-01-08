@@ -77,6 +77,10 @@ h3 {
 h4 {
     font-size: 34px;
     font-family: 'Playfair Display', serif;
+    color: var(--text-color);
+    line-height: 1.18;
+    font-weight: 700;
+    letter-spacing: 0.2px;
 }
 
 h5 {
