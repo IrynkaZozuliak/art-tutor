@@ -1,4 +1,9 @@
-
+.pricing-plans__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
 
 .pricing-plans p {
