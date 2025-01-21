@@ -1,0 +1,15 @@
+.gallery__image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.gallery__image {
+    width: 370px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 20% 80%;
+    position: relative;
+}
