@@ -1,0 +1,11 @@
+.contact-me__black {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.contact-me__back {
+    background-image: url(/img/icons/background.webp);
+    width: 1200;
+    height: 515px;
+     
+}
