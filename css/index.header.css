@@ -1,7 +1,8 @@
 .header__nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 95px;
     padding: 25px 3px;
   }
   
