@@ -8,7 +8,7 @@
 .how-to-start__elements-container {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 30px;
 }
 
 .how-to-start p {
@@ -19,7 +19,7 @@
     font-optical-sizing: auto;
     color: var(--text-color);
     line-height: 1.5;
-    padding-top: 15px;
+    padding-top: 18px;
 }
 
 .how-to-start__element {
@@ -40,6 +40,6 @@
 
 .how-to-start__imagen {
     width: 80px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
