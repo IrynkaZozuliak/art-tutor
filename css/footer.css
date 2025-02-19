@@ -1,0 +1,20 @@
+.footer {
+    
+    background: var(--brand-color);
+}
+.footer-position {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: solid;
+   
+}
+.footer-elements img {
+    width: 168px;
+    background-color: var(--white);
+}
+
+.footer-elements,
+.footer__elements-column {
+    width: 210px;
+}
