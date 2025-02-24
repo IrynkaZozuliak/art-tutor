@@ -82,18 +82,33 @@
     letter-spacing: 0.05px;
 }
 
- .icons-property {
-    background-color: #ffffff;
-    color: #ffffff;
-    
+ 
+
+ .icons_position {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-decoration: none;
  }
 
- .icons-property:hover {
-    background-color: #831616;
-    color: #a71c1c;
-    
+ .icons_position svg {
+    width: 30px;
+    height: 30px;
  }
 
  .logo_2gS {
     fill: var(--white);
+    padding: 0;
+    margin: 0;
+ }
+
+
+ .icons_position-elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--white);
+    border-radius: 4px;
  }
