@@ -82,7 +82,18 @@
     letter-spacing: 0.05px;
 }
 
-.footer__elements-column--icons svg {
+ .icons-property {
+    background-color: #ffffff;
     color: #ffffff;
-}
+    
+ }
 
+ .icons-property:hover {
+    background-color: #831616;
+    color: #a71c1c;
+    
+ }
+
+ .logo_2gS {
+    fill: var(--white);
+ }
