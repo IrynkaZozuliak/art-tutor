@@ -82,33 +82,24 @@
     letter-spacing: 0.05px;
 }
 
- 
-
- .icons_position {
+.icons_position {
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    text-decoration: none;
- }
+} 
 
- .icons_position svg {
-    width: 30px;
-    height: 30px;
- }
-
- .logo_2gS {
-    fill: var(--white);
-    padding: 0;
-    margin: 0;
- }
-
-
- .icons_position-elem {
+.icons__position-elem {
+    border: 2px solid var(--white);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
     text-align: center;
-    border: 1px solid var(--white);
-    border-radius: 4px;
- }
+}
+
+.icons__position-elem p {
+    width: 30px;
+    height: 30px;
+}
+
+
+
