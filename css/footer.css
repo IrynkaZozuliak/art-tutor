@@ -85,20 +85,32 @@
 .icons_position {
     display: flex;
     flex-direction: row;
+    gap: 25px;
 } 
 
 .icons__position-elem {
-    border: 2px solid var(--white);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    border: 1px solid var(--white);
+    border-radius: 4px;
     
-    text-align: center;
+   
+    
+   
+    
+   
+    width: 34px;
+    height: 34px;
+   
 }
 
-.icons__position-elem p {
-    width: 30px;
-    height: 30px;
+ 
+
+
+.icons__position-elem svg {
+ max-width: 100%;
+ display: block;
+ margin: auto;
+   fill: #ffffff;
+
 }
 
 
