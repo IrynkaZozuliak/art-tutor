@@ -56,6 +56,10 @@
   text-transform: none;
 }
 
+.footer_menu-link:hover {
+    color: var(--btn-bg-gradient);
+  }
+
 
 .footer__elements-column--icons {
     display: flex;
