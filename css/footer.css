@@ -1,13 +1,12 @@
 .footer {
-    padding-top: 100px;
+    padding-top: 90px;
     background: var(--brand-color);
   
 .footer-position {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
-    border: solid;
-   
 }
 .footer-elements {
     display: flex;
@@ -24,16 +23,6 @@
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  line-height: 1.56;
-}
-
-.footer-elements span {
-    color: var(--white);
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-style: normal;
   color: #ffffff;
   line-height: 1.56;
@@ -71,6 +60,7 @@
 .footer__elements-column--icons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
 }
 
@@ -94,16 +84,31 @@
     border-radius: 4px;
     width: 30px;
     height: 30px;
-   
 }
 
  
 
 
 .icons__position-elem svg {
- margin: auto;
+   margin: auto;
    fill: #ffffff;
 }
 
+.footer-elements-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
 
-
+.footer-elements-text span {
+    color: var(--white);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+}
