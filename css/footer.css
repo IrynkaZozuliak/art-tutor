@@ -71,6 +71,7 @@
 .footer__elements-column--icons {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .footer__elements-column--icons p {
@@ -85,20 +86,14 @@
 .icons_position {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 15px;
 } 
 
 .icons__position-elem {
     border: 1px solid var(--white);
     border-radius: 4px;
-    
-   
-    
-   
-    
-   
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
    
 }
 
@@ -106,11 +101,8 @@
 
 
 .icons__position-elem svg {
- max-width: 100%;
- display: block;
  margin: auto;
    fill: #ffffff;
-
 }
 
 
