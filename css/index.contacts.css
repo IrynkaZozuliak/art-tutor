@@ -110,7 +110,7 @@
     padding-top: 70px;
     padding-bottom: 60px;
     width: 570px;
-  
+    height: 712px;
     background-color: #ffffff;
   }
   
@@ -189,6 +189,11 @@
      outline: none;
      border-radius: 3px;
   }
+
+.form__text-size {
+  height: 150px;
+}
+
   
   .question__form-send {
     width: 370px;

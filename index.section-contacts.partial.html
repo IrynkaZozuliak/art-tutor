@@ -48,8 +48,9 @@
         
                 <form id="myForm" class="question__container-form" action="https://formspree.io/f/mkgwprdb" method="post">
                   <input class="question__form-size" type="text" name="name" required placeholder="Enter your full name*" />
+                  <input class="question__form-size" type="tel" name="phone" pattern="[0-9]{10}" required placeholder="Enter your phone number*" minlength="9" maxlength="19" />
                   <input class="question__form-size" type="email" name="email" required placeholder="Enter your e-mail*" />
-                  <input class="question__form-size" type="text" name="text" required placeholder="Type your message" />
+                  <input class="question__form-size form__text-size" type="text" name="text" required placeholder="Type your message" />
                   <input type="submit" value="Request a quote" class="question__form-send" />
                 </form>
               </div>
