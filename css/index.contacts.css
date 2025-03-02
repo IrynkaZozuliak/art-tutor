@@ -1,0 +1,242 @@
+
+.contacts__form {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    margin-bottom: 100px;
+}
+
+.contacts__form-elements {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+.contacts__form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.contacts__form-text p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+
+.contacts__form-text--input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacts__input-element {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.contacts__input-size {
+    width: 155px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.contacts__input-element p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--paragraph-color);
+    line-height: 1.56;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  .contact__question-position {
+    margin-top: 100px;
+    margin-bottom: 7px;
+  }
+  
+  .question__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .question__container-size {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    width: 570px;
+  
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .question__container-size {
+      width: 320px;
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .question__container-size {
+      width: 400px;
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 991px) and (max-width: 1220px) {
+    .question__container-size {
+      width: 450px;
+      margin-left: 0px;
+    }
+  }
+  
+   
+  
+  .question__container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .question__form-size {
+    width: 400px;
+    height: 47px;
+    background-color: #322c2c1f;
+    border-style: solid;
+    border-color: rgba(88, 88, 88, 0.001);
+    border-radius: 5px;
+  
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+  
+    padding: 13px 18px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .question__form-size {
+      width: 200px;
+      height: 45px;
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .question__form-size {
+      width: 300px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 991px) and (max-width: 1220px) {
+    .question__form-size {
+      width: 350px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  
+  .question__form-size:focus {
+    border-color: rgb(81, 149, 228);
+  }
+  
+  .question__form-send {
+    width: 400px;
+    height: 45px;
+    padding: 15px 0;
+  
+    background: #2ab6ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+    border: #2ab6ff;
+    font-optical-sizing: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 25px;
+  }
+  
+  .question__form-send:hover {
+    color: #fff;
+    background: #4f4949;
+    transition: 0.5s;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .question__form-send {
+      width: 200px;
+      height: 45px;
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .question__form-send {
+      width: 300px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 991px) and (max-width: 1220px) {
+    .question__form-send {
+      width: 350px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  
