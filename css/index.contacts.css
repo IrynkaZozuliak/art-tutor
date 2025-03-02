@@ -98,10 +98,7 @@
 
 
  
-  .contact__question-position {
-    margin-top: 100px;
-    margin-bottom: 7px;
-  }
+  
   
   .question__container {
     display: flex;
@@ -115,8 +112,6 @@
     width: 570px;
   
     background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   }
   
   @media only screen and (min-width: 320px) and (max-width: 601px) {
@@ -150,18 +145,17 @@
   }
   
   .question__form-size {
-    width: 400px;
-    height: 47px;
-    background-color: #322c2c1f;
+    width: 370px;
+    height: 50px;
+    background-color: var(--background-color);
     border-style: solid;
     border-color: rgba(88, 88, 88, 0.001);
-    border-radius: 5px;
-  
+     
     font-size: 15px;
     line-height: 1.7;
     font-weight: 500;
   
-    padding: 13px 18px;
+    padding: 13px 21px;
   }
   
   @media only screen and (min-width: 320px) and (max-width: 601px) {
@@ -188,22 +182,26 @@
     }
   }
   
+
+
   .question__form-size:focus {
-    border-color: rgb(81, 149, 228);
+     border: 2px solid var(--light-border-color);
+     outline: none;
+     border-radius: 3px;
   }
   
   .question__form-send {
-    width: 400px;
-    height: 45px;
+    width: 370px;
+    height: 50px;
     padding: 15px 0;
   
-    background: #2ab6ff;
+    background: var(--brand-color);
     color: #fff;
     font-size: 16px;
     font-weight: 700;
     font-family: "Josefin Sans", sans-serif;
-    border-radius: 5px;
-    border: #2ab6ff;
+    
+    border: var(--brand-color);
     font-optical-sizing: auto;
     text-align: center;
     text-decoration: none;
@@ -212,7 +210,7 @@
   
   .question__form-send:hover {
     color: #fff;
-    background: #4f4949;
+    background: var(--btn-bg-gradient);
     transition: 0.5s;
   }
   
