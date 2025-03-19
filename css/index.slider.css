@@ -69,3 +69,23 @@
   transform: rotateY(180deg);
 }
 
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .slider {
+    
+    max-width: 992px; /* Ширина слайдера */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 39px;
+    padding-right: 10px;
+  }
+
+  .slider__item {
+    flex: 0 0 calc(100% / 3); /* Відображаємо 6 елементів на екрані */
+    text-align: center;
+  }
+}

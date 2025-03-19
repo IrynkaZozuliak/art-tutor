@@ -6,6 +6,13 @@
     gap: 30px;
 }
 
+@media only screen and (max-width: 992px) {
+  .personal-tutor {
+    display: flex;
+    flex-direction: column;
+  } 
+}
+
 .personal-tutor__text {
     width: 690px;
     padding: 30px 47px 0 3px;
