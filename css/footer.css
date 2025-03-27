@@ -8,6 +8,13 @@
     justify-content: space-between;
     gap: 30px;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .footer-position {
+        flex-direction: column;
+    }
+  }
+
 .footer-elements {
     display: flex;
     flex-direction: column;
@@ -114,6 +121,13 @@
     padding-bottom: 20px;
     padding-top: 35px;
 }
+
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .footer-elements-text {
+        flex-direction: column;
+    }
+  }
 
 .footer-elements-text span {
     color: var(--white);
