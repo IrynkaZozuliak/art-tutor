@@ -1,4 +1,39 @@
 .my-services {
-  
   margin-bottom: 250px;
 }
+
+.cghhh {
+  background-image: url(/img/Screenshot_1.jpg);
+  width: 960px;
+  height: 660px;
+}
+
+.image_one {
+  
+  top: 0;
+  left: 0;
+  width: 350px;
+}
+
+.image_two {
+  
+    width: 100px;
+    height: 100px;
+    background-color: #00785b; /* основний елемент */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .image_two::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) rotate(20deg);
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgba(0,120,91,0.67); /* кольорова тінь */
+    z-index: -1;
+  }
