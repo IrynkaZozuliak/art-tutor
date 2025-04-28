@@ -16,24 +16,20 @@
 }
 
 .image_two {
-  
-    width: 100px;
-    height: 100px;
-    background-color: #00785b; /* основний елемент */
-    position: relative;
-    z-index: 1;
-  }
-  
-  .image_two::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) rotate(20deg);
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid rgba(0,120,91,0.67); /* кольорова тінь */
-    z-index: -1;
-  }
+   position: relative;
+  top: 295px;
+  left: 190px;
+  width: 75px;
+ 
+  box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
+  -webkit-box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
+  -moz-box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
+  border-radius: 50%;
+
+}
+
+ 
+
+ 
+
+ 
