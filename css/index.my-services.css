@@ -2,31 +2,6 @@
   margin-bottom: 250px;
 }
 
-.cghhh {
-  background-image: url(/img/Screenshot_1.jpg);
-  width: 960px;
-  height: 660px;
-}
-
-.image_one {
-  
-  top: 0;
-  left: 0;
-  width: 350px;
-}
-
-.image_two {
-   position: relative;
-  top: 295px;
-  left: 190px;
-  width: 75px;
- 
-  box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
-  -webkit-box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
-  -moz-box-shadow: -61px -49px 135px -45px rgba(10,86,65,0.67) inset;
-  border-radius: 50%;
-
-}
 
  
 
