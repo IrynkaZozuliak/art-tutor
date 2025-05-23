@@ -1,3 +1,10 @@
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .pricing-plans {
+    margin: 0px 25px;  
+}
+}
+
 .pricing-plans__text {
     display: flex;
     flex-direction: column;

@@ -1,3 +1,10 @@
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .gallery {
+    margin: 0px 25px;  
+}
+}
+
 .gallery__text {
     display: flex;
     flex-direction: column;
@@ -30,4 +37,11 @@
     object-fit: cover;
     object-position: 25% 75%;
     position: relative;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .gallery__image {
+     width: 250px;
+    height: 350px;  
+}
 }

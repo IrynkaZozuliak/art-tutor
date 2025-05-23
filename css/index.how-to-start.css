@@ -5,6 +5,13 @@
     gap: 15px;
 }
 
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .how-to-start {
+    margin: 0px 25px;  
+    margin-bottom: 50px;
+}
+}
+
 .how-to-start__elements-container {
     display: flex;
     flex-direction: row;
