@@ -87,6 +87,7 @@
 
   }
 
+
   .pricing-plans__element-table {
     display: flex;
     flex-direction: row;
@@ -97,6 +98,14 @@
     text-align: center;
     padding: 25px 55px;
   }
+
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+   .pricing-plans__element-table {
+    flex-direction: column;
+    gap: 30px;
+     padding: 65px 55px; 
+}
+}
 
   .pricing-table__link {
     text-decoration: none;
