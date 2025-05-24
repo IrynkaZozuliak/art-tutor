@@ -4,7 +4,8 @@
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {
   .about-me {
-    margin: 0px 25px;  
+    margin-left: 25px;  
+    margin-right: 25px;
 }
 }
 
@@ -37,6 +38,12 @@
     min-width: 600px;
     border: solid;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about__text-size {
+        min-width: 290px;  
+}
+  }
 
  
 .about__text-color--black {
