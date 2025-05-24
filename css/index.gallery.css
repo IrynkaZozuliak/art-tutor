@@ -26,6 +26,7 @@
 .gallery__image-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 31px;
 
@@ -41,7 +42,14 @@
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {
   .gallery__image {
-     width: 250px;
+     width: 220px;
+    height: 300px;  
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+  .gallery__image {
+     width: 270px;
     height: 350px;  
 }
 }
