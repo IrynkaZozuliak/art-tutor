@@ -32,19 +32,37 @@
 
 .pricing-table__name {
     width: 198px;
-    font-size: 24px;
+    text-align: center;
+}
+
+.pricing-table__name h5 {
+  font-size: 24px;
     font-family: 'Playfair Display', serif;
     color: var(--text-color);
     line-height: 1.31;
     font-weight: 600;
     letter-spacing: 0.05px;
-    text-align: center;
+
+}
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .pricing-table__name h5 {
+      font-size: 20px;
+}
 }
 
 .pricing-table__duration,
 .pricing-table__price {
     width: 198px;
     text-align: center;
+}
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-table__duration,
+.pricing-table__price,
+.pricing-table__name {
+    width: 155px;
+}
 }
 
 .pricing-table__duration p {
@@ -142,12 +160,7 @@
     transition: 0.5s;
 }
 
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .pricing-table__link {
-    padding: 1px 1px;
-     width: 35px;
-}
-}
+ 
   
   
  
