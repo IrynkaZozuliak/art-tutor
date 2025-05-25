@@ -1,8 +1,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
   .gallery {
-    margin-left: 25px;  
-    margin-right: 25px;
+  
 }
 }
 
@@ -55,12 +54,19 @@
 
 @media only screen and (min-width: 320px) and (max-width: 420px) {
   .gallery__image {
-     width: 120px;
-    height: 300px;  
+     width: 155px;
+    height: 200px;  
 }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 991px) {
+@media only screen and (min-width: 420px) and (max-width: 601px) {
+  .gallery__image {
+     width: 175px;
+    height: 210px;  
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
   .gallery__image {
      width: 220px;
     height: 300px;  
