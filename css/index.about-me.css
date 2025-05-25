@@ -2,7 +2,7 @@
     margin-bottom: 50px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 991px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) {
   .about-me {
     margin-left: 25px;  
     margin-right: 25px;
@@ -20,6 +20,12 @@
     }
   }
 
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .about-me h3 {
+        width: 315px;
+    }
+  }
+
 
 .about__text-position {
     display: flex;
@@ -28,7 +34,7 @@
     margin-top: 50px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
      .about__text-position{  
         flex-direction: column;
     }
@@ -39,7 +45,7 @@
     border: solid;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) {
     .about__text-size {
         min-width: 290px;  
 }
@@ -95,7 +101,7 @@
     
 }
 
-  @media only screen and (min-width: 601px) and (max-width: 991px) {
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
     .art-tutor__links-lesson {
         margin-top: 25px;   
     }
@@ -140,7 +146,7 @@
     padding-left: 25px;  
 }
 
-@media only screen and (min-width: 601px) and (max-width: 991px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) {
   .about-me__section_wh {
     margin-left: 25px;  
     margin-right: 25px;
@@ -155,12 +161,25 @@
     }
   }
 
+   @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .about-me__section--white {
+         flex-direction: column;
+         height: 950px;  
+    }
+  }
+
 .about-me__element {
     width: 330px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .about-me__element {
+        width: 295px;     
+    }
+  }
 
   @media only screen and (min-width: 601px) and (max-width: 850px) {
     .about-me__element {
