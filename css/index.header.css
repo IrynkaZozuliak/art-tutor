@@ -6,6 +6,13 @@
     padding: 25px 0;
   }
   
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .header__nav {
+    margin-left: 25px; 
+    margin-right: 25px; 
+}
+}
+
   .header__menu {
     display: flex;
     flex-direction: row;
