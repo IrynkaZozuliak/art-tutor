@@ -29,6 +29,9 @@
     max-width: 570px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
     gap: 30px;
 }
 
@@ -38,7 +41,6 @@
 .contacts__form-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 25px;
 }
 
@@ -56,12 +58,14 @@
 .contacts__form-text--input {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     gap: 15px;
 }
 
 .contacts__input-element {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     gap: 30px;
 }
 
@@ -102,7 +106,7 @@
 
 
 
-
+ 
 
 .contacts__map iframe {
   width: 570px;
@@ -113,6 +117,7 @@
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   .contacts__map iframe {
     width: 270px;
+    
   }
 }
 
@@ -122,9 +127,15 @@
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 991px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
   .contacts__map iframe {
-    width: 300px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contacts__map iframe {
+    width: 330px;
   }
 }
 
