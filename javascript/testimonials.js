@@ -2,7 +2,7 @@ const swiper = new Swiper('.slider-wrapper', {
 
 loop: true,
 grabCursor: true,
-spaceBetween: 20,
+spaceBetween: 30,
 pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -19,7 +19,7 @@ navigation: {
         slidesPerView: 1
     }, 
 
-    620: {
+    768: {
         slidesPerView: 2
     }, 
 
