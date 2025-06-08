@@ -35,26 +35,26 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
-   
-     max-width: 1170px;
+      max-width: 1200px;
 }
 
  .slider-wrapper {
     overflow: hidden;
-    max-width: 1170px;
-    margin: 0 30px 45px;
+   
+ 
 
  }
 
 .slider__trackе {
-    
- 
+      
+
+  padding-bottom: 50px;
 }
 
  .slider__trackе .testimonials__element {
    user-select: none;
     height: 450px;
-   width: 360px;
+   width: 320px;
     background-color: var(--white);
 
     display: flex;
@@ -66,15 +66,11 @@
     
     padding: 50px 35px 10px 35px;
     
-     
+     border: solid;
  }
 
 
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .testimonials__element {
-    width: 250px;
-}
-}
+
  
 
 
@@ -102,9 +98,7 @@
 
 
 
- .swiper-button-prev {
-   width: 5px;
- }
+
 
 .slider-wrapper .swiper-pagination-bullet {
    background: #736D73;
@@ -115,9 +109,7 @@
 .slider-wrapper .swiper-slide-button {
    color: #736D73;
    transition: 0.2s ease;
-   width: 1px;
-   height: 1px;
-   size: 15px;
+
 }
 
 .slider-wrapper .swiper-pagination-bullet:hover {
