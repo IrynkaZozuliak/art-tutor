@@ -1,4 +1,4 @@
-const swiper = new Swiper('.slider-wrapper', {
+const swiper = new Swiper('.swiper', {
 
 loop: true,
 grabCursor: true,
@@ -16,18 +16,18 @@ navigation: {
 
  breakpoints: {
     0: {
-        slidesPerView: 1
+        slidesPerView: 1,
     }, 
 
     768: {
-        slidesPerView: 2
+        slidesPerView: 2,
     }, 
 
     1024: {
-        slidesPerView: 3
+        slidesPerView: 3,
     }, 
 
- }
+ },
 });
 
 
