@@ -11,7 +11,7 @@
   }
 
 .contact-me__back {
-    background-image: url(/img/icons/background.webp);
+    background-image: url("../img/icons/background.webp");
     max-width: 1200;
     height: 515px;
 
