@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon4">
+            <g id="Группа_1_копия" transform="translate(1.000000, 0.000000)" fill-rule="nonzero">
+                <rect id="Прямоугольник_1_копия_4" fill="#E1D9C8" x="0" y="0" width="60" height="60"></rect>
+                <rect id="Прямоугольник_1" fill="#D74944" x="30" y="0" width="30" height="30"></rect>
+                <rect id="Прямоугольник_1_копия_3" fill="#F2B75E" x="30" y="30" width="30" height="30"></rect>
+            </g>
+            <path d="M30.876,0 C14.3074575,0 0.876,13.4314575 0.876,30 C0.876,46.5685425 14.3074575,60 30.876,60 C30.919,60 31.133,0 30.876,0 Z" id="Эллипс_1_копия" fill="#436A58"></path>
+        </g>
+    </g>
+</svg>

@@ -54,6 +54,7 @@
  .slider__trackе .testimonials__element {
    user-select: none;
     height: 450px;
+    width: 360px;
  
     background-color: var(--white);
 

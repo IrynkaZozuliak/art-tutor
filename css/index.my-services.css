@@ -1,5 +1,6 @@
 .my-services {
-  margin-bottom: 250px;
+  margin-bottom: 400px;
+   
 }
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
@@ -10,36 +11,57 @@
 }
 }
 
+.my__services-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.my__services-text p {
+   font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #1D2626;
+    line-height: 1.5;
+}
+
 
  
 .vtabs {
   max-width: 1200px;
-  padding: 20px;
+  padding-top: 15px;
+  
   margin: 50px auto;
   position: relative;
+  
+ 
 }
 
 .vtabs input{display: none;}
 .vtabs label{
   display: block;
-  width: 20%;
-  padding: 15px;
-  color: #a2a2a2;
-  font-weight: 500;
+  width: 22%;
+  
+  padding-bottom: 25px;
+ 
+  color: #736D61;
+  font-weight: 400;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  border-right: 3px solid #dcdcdc;
+  
   transition: .3s ease;
+  
+  
 }
 
 .vtabs label:hover{
   cursor: pointer;
   color: #404040;
 }
-.vtabs input:checked + label{
-  color: #404040;
-  border-right: 3px solid #00c4ff;
-}
+ 
  
 .vtabs #tab1:checked ~ .vtab-content #content1,
 .vtabs #tab2:checked ~ .vtab-content #content2,
@@ -50,12 +72,18 @@
  .vtabs .vtab-content{
   position: absolute;
   top: 0;
-  max-width: 65%;
-  right: 20px;
+  width: 78%;
+   
+  right: 1px;
+    border-left: 1px solid #2d2e2e;
+     
+   
  }
 
  .vtabs .vtab-content div {
   display: none;
+   
+  
  }
 
 
@@ -68,12 +96,42 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
+ margin-left: 30px;
 }
 
 
 
  .services__content-elem {
   width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
    
+ }
+
+
+ .pp-elem-one {
+   font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #1D2626;
+    line-height: 1.5;
+     
+ }
+
+ .pp-elem-two {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #736D61;
+    line-height: 1.5;
+ }
+
+ .services__image {
+  width: 50px;
  }
