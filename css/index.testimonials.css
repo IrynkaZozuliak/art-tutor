@@ -48,21 +48,20 @@
 
  
 
-.slider__track {
+.slider__trackkee {
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  
-
-
+ 
+   
    
 }
 
- .slider__track .testimonials__element {
+ .slider__trackkee .testimonials__element {
    user-select: none;
     height: 450px;
     
+ 
     background-color: var(--white);
 
     display: flex;
