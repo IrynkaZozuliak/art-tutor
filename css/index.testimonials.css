@@ -56,8 +56,8 @@
  .slider__trackе .testimonials__element {
    user-select: none;
     height: 450px;
-     
- 
+     max-width: 360px;
+ min-width: 360px;
     background-color: var(--white);
 
     display: flex;
