@@ -1,33 +1,25 @@
 const swiper = new Swiper('.swiper', {
-
-loop: true,
-grabCursor: true,
-spaceBetween: 30,
-pagination: {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 30,
+  pagination: {
     el: '.swiper-pagination',
     clickable: true,
-    dynamicBullets: true
-},
-
-navigation: {
+    dynamicBullets: true,
+  },
+  navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-},
-
- breakpoints: {
+  },
+  breakpoints: {
     0: {
-        slidesPerView: 1,
-    }, 
-
+      slidesPerView: 1,
+    },
     768: {
-        slidesPerView: 2,
-    }, 
-
+      slidesPerView: 2,
+    },
     1024: {
-        slidesPerView: 3,
-    }, 
-
- },
+      slidesPerView: 3,
+    },
+  },
 });
-
-

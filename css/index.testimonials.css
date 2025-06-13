@@ -35,29 +35,34 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
-    
+     
+    max-width: 1200px;
 }
 
  .slider-wrapper {
     overflow: hidden;
   
-
+ 
+    
 }
 
  
 
-.slider__trackе {
+.slider__track {
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  
+
+
    
 }
 
- .slider__trackе .testimonials__element {
+ .slider__track .testimonials__element {
    user-select: none;
     height: 450px;
-     max-width: 360px;
- min-width: 360px;
+    
     background-color: var(--white);
 
     display: flex;
@@ -73,7 +78,11 @@
  }
 
 
-
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+ .slider__track .testimonials__element {
+  width: 250px;
+}
+}
  
 
 
@@ -99,7 +108,9 @@
  }
 
 
-
+ .swiper-button-prev {
+   width: 5px;
+ }
 
 
 
