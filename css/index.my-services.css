@@ -12,7 +12,68 @@
 
 
  
+.vtabs {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 50px auto;
+  position: relative;
+}
 
- 
+.vtabs input{display: none;}
+.vtabs label{
+  display: block;
+  width: 20%;
+  padding: 15px;
+  color: #a2a2a2;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-right: 3px solid #dcdcdc;
+  transition: .3s ease;
+}
 
+.vtabs label:hover{
+  cursor: pointer;
+  color: #404040;
+}
+.vtabs input:checked + label{
+  color: #404040;
+  border-right: 3px solid #00c4ff;
+}
  
+.vtabs #tab1:checked ~ .vtab-content #content1,
+.vtabs #tab2:checked ~ .vtab-content #content2,
+.vtabs #tab3:checked ~ .vtab-content #content3{
+  display: block;
+}
+
+ .vtabs .vtab-content{
+  position: absolute;
+  top: 0;
+  max-width: 65%;
+  right: 20px;
+ }
+
+ .vtabs .vtab-content div {
+  display: none;
+ }
+
+
+
+
+
+
+
+.services__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+
+ .services__content-elem {
+  width: 270px;
+   
+ }
