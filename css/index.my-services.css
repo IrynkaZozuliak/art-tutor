@@ -1,5 +1,5 @@
 .my-services {
-  margin-bottom: 400px;
+  
    
 }
 
@@ -57,7 +57,7 @@
 .tabs__controls {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 270px;
   
   border-right: 1px solid #ccc;
 }
@@ -68,6 +68,9 @@
   color: #736D61;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tabs__label:hover {
