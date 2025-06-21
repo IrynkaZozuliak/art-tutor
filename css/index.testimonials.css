@@ -109,6 +109,7 @@
 
  .swiper-button-prev {
    width: 5px;
+   font-size: 25px;
  }
 
 
@@ -122,7 +123,9 @@
 .slider-wrapper .swiper-slide-button {
    color: #736D73;
    transition: 0.2s ease;
-
+ font-size: 25px;
+ margin-right: -10px;
+    margin-left: -10px;
 }
 
 
