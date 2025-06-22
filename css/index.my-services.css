@@ -60,6 +60,8 @@
   display: none;
 }
 
+ 
+
 .tabs__layout {
   display: flex;
   flex-direction: row;
@@ -90,6 +92,8 @@
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
+
+ 
 
 .tabs__label:hover {
   background-color: #eaeaea;
