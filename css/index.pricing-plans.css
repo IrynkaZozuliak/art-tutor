@@ -132,16 +132,7 @@
 }
 }
 
-.pricing-table__link-size {
-  width: 140px;
-  height: 55px;
-  background: var(--brand-color);
-  color: var(--white);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 
   .pricing-table__link {
     text-decoration: none;
@@ -152,9 +143,17 @@
     line-height: 1.67;
     letter-spacing: 0.5px;
     transition: all 0.5s;
+    background: var(--brand-color);
+  color: var(--white);
+  width: 140px;
+  height: 55px;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.pricing-table__link-size:hover {
+.pricing-table__link:hover {
     background: var(--btn-bg-gradient);
     color: var(--white);
     transition: 0.5s;
