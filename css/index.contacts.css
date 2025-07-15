@@ -16,7 +16,7 @@
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .contacts__form {
     margin-left: 25px;
     margin-right: 25px;
@@ -133,11 +133,13 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .contacts__map iframe {
     width: 330px;
   }
 }
+
+
 
 
 
@@ -214,7 +216,7 @@
     }
   }
 
-    @media only screen and (min-width: 850px) and (max-width: 991px) {
+    @media only screen and (min-width: 850px) and (max-width: 1200px) {
     .question__container-size {
       width: 350px;
       margin-left: 0px;
@@ -276,7 +278,7 @@
     }
   }
 
-    @media only screen and (min-width: 850px) and (max-width: 991px) {
+    @media only screen and (min-width: 850px) and (max-width: 1200px) {
     .question__form-size {
       width: 210px;
       height: 45px;
@@ -329,7 +331,7 @@
     }
   }
   
-  @media only screen and (min-width: 601px) and (max-width: 991px) {
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
     .question__form-send {
       width: 200px;
       height: 45px;
@@ -337,11 +339,4 @@
     }
   }
   
-  @media only screen and (min-width: 991px) and (max-width: 1220px) {
-    .question__form-send {
-      width: 350px;
-      height: 45px;
-      font-size: 14px;
-    }
-  }
-  
+ 

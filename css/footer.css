@@ -24,7 +24,7 @@
     }
   }
 
-  @media only screen and (min-width: 770px) and (max-width: 991px) {
+  @media only screen and (min-width: 770px) and (max-width: 1200px) {
     .footer-position {
         margin-left: 25px;
         margin-right: 25px;
@@ -161,7 +161,7 @@
     }
   }
 
-  @media only screen and (min-width: 770px) and (max-width: 991px) {
+  @media only screen and (min-width: 770px) and (max-width: 1200px) {
     .footer-elements-text {
           margin-left: 25px;
         margin-right: 25px;
