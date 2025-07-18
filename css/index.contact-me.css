@@ -1,6 +1,7 @@
 .contact-me__black {
-    margin-top: 90px;
-    margin-bottom: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  position: relative; /* Додано для абсолютного позиціонування pop-up */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
@@ -11,19 +12,39 @@
   }
 
 .contact-me__back {
-    background-image: url("../img/icons/background.webp");
-    max-width: 1200;
-    height: 515px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-left: 15px;
-    padding-right: 15px;
+  background-image: url("../img/icons/background.webp");
+  max-width: 1200px; /* додано px */
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  
 }
 
+.bfff {
  
+     display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+ .contact-me__popup-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; /* Центрування через flex */
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* Щоб не заважало натисканням, поки popup неактивний */
+  z-index: 5;
+}
 
 .contact-me__back p {
     color: var(--white);
@@ -63,6 +84,8 @@
     line-height: 1.67;
     letter-spacing: 0.5px;
     transition: all 0.5s;
+    cursor: pointer;
+    z-index: 6;  
 
 }
 
@@ -70,40 +93,38 @@
     background: var(--btn-bg-gradient);
     color: var(--white);
     transition: 0.5s;
+     
 }
 
 
   
 
 
+ 
 
-
-.center {
-
-}
+ 
 
 
 
 .popup {
-    width: 350px;
-    height: 280px;
-    padding: 30px 20px;
-    background: #f5f5f5;
-    border-radius: 10px;
-    box-sizing: border-box;
-    z-index: 2;
-    text-align: center;
-    opacity: 0;
-    top: -200%;
-    transform: translate(-50%, -50%) scale(0.5);
-    transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+  width: 350px;
+  height: 280px;
+  padding: 30px 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms ease-in-out,
+    transform 300ms ease-in-out;
+  pointer-events: auto;
+  z-index: 1001;
 }
 
 .popup.active {
-    opacity: 1;
-    top: 50%;
-     transform: translate(-50%, -50%) scale(1);
-     transition: transform 300ms cubic-bezier(0.18, 0.89, 0.43, 1.19);
+  opacity: 1;
+  transform: scale(1);
 }
 .popup .icon {
     margin: 5px 0px;
@@ -155,3 +176,34 @@
     color: #111;
     background: #f5f5f5;
 }
+
+
+.popup > div {
+    position: relative;
+    top: 10px;
+    opacity: 0;
+}
+
+.popup.active > div {
+    top: 0px;
+    opacity: 1;
+}
+
+.popup.active .icon {
+    transition: all 300ms ease-in-out 250ms;
+}
+
+.popup.active .title {
+    transition: all 300ms ease-in-out 300ms;
+}
+
+.popup.active .description {
+    transition: all 300ms ease-in-out 350ms;
+}
+
+.popup.active .dismiss-btn {
+    transition: all 300ms ease-in-out 400ms;
+}
+
+
+
