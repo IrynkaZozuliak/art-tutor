@@ -1,11 +1,4 @@
 
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .gallery {
-  margin-left: 25px;
-  margin-right: 25px;
-}
-}
-
 .gallery__text {
     display: flex;
     flex-direction: column;
@@ -34,63 +27,256 @@
     line-height: 1.5;
 }
 
-.gallery__image-container {
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .section_Gallery {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+}
+
+
+
+
+
+
+
+
+.section_Gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery_container {
+    margin-top: 90px; 
+    margin-bottom: 90px;
+ }
+
+
+.hh2_gallery_position {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-bottom: 60px;
+}
+
+.hh2_gallery_properties {
+    font-size: 44px;
+    color: #676767;
+    line-height: 1;
+    font-family: Cabin,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+@media only screen and (min-width:320px) and (max-width:477px) {
+  .hh2_gallery_properties  {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (min-width:477px) and (max-width:991px) {
+  .hh2_gallery_properties  {
+    font-size: 39px;
+  }
+}
+
+
+.img_gallery_allblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px
+}
+.img_gallery_position {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 31px;
-
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .gallery__image-container {
-    gap: 15px; 
-     
-}
+@media only screen and (min-width:320px) and (max-width:2500px) {
+  .img_gallery_position {
+      display: flex;
+      flex-wrap: wrap;
+  }
 }
 
-.gallery__image {
+
+ 
+
+
+.image_gallery {
     width: 369px;
     height: 500px;
     object-fit: cover;
     object-position: 25% 75%;
     position: relative;
+    cursor: pointer;
 }
 
  
 
 @media only screen and (min-width: 320px) and (max-width: 380px) {
-  .gallery__image {
+  .image_gallery {
      width: 120px;
     height: 180px;  
 }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 420px) {
-  .gallery__image {
+  .image_gallery {
      width: 155px;
     height: 200px;  
 }
 }
 
 @media only screen and (min-width: 420px) and (max-width: 601px) {
-  .gallery__image {
+  .image_gallery {
      width: 175px;
     height: 210px;  
 }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {
-  .gallery__image {
+  .image_gallery {
      width: 220px;
     height: 300px;  
 }
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1180px) {
-  .gallery__image {
+  .image_gallery {
      width: 270px;
     height: 350px;  
 }
 }
+
+
+
+
+
+/* Стилі для стрілок перегортування */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Стилі для лівої стрілки */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Стилі для правої стрілки */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Зміна фонового кольору при наведенні */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Стилі для модального вікна */
+  /* Стилі для модального вікна */
+  .modal {
+    display: none; /* Початково ховаємо модальне вікно */
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  /* Стилі для зображення в модальному вікні */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 550px; /* або будь-який інший розмір, який ви хочете встановити */
+    max-width: 550px; /* максимальна ширина зображення */
+    height: 525px; /* автоматична висота зображення */
+  }
+
+  /* Стилі для підпису зображення в модальному вікні */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+  }
+  
+  
+  /* Стилі для кнопки закриття модального вікна */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+
